@@ -14,6 +14,17 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby website`,
+        short_name: `Gatsby website`,
+        start_url: `/`,
+        background_color: `#f7f7f7`,
+        theme_color: `#191919`,
+        display: `minimal-ui`,
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     `gatsby-plugin-styled-components`,
