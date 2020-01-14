@@ -91,10 +91,13 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 15. **`README.md`**: A text file containing useful reference information about your project.
 
+16. **`tsconfig.json`**: This is a configuration file for [TypeScript](https://www.typescriptlang.org/index.html). This file specifies the root files and the compiler options required to compile the project.
+
 ## 🛠 Features
 
 1. CSS in JS - [Styled components](https://www.styled-components.com/)
 2. ESlint [Airbnb React/JSX style guide](https://github.com/airbnb/javascript/tree/master/react)
+3. Pre-Commit Hooks - [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
 ## 🎓 Learning Gatsby
 
