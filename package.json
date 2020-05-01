@@ -36,6 +36,7 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
+    "standard-version": "^7.1.0",
     "typescript": "^3.8.3"
   },
   "keywords": [
@@ -50,7 +51,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "lint": "tsc --noEmit && eslint '*/**/*.{ts,tsx}' --quiet --fix"
+    "lint": "tsc --noEmit && eslint '*/**/*.{ts,tsx}' --quiet --fix",
+    "bump": "standard-version"
   },
   "husky": {
     "hooks": {
