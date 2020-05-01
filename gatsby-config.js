@@ -23,6 +23,7 @@ module.exports = {
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
         display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`,
       },
     },
     'gatsby-transformer-sharp',
