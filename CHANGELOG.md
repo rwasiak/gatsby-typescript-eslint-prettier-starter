@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/rwasiak/gatsby-typescript-eslint-prettier-starter/compare/v0.1.0...v0.2.0) (2020-05-01)
+
+### ⚠ BREAKING CHANGES
+
+- production ready version
+
+### Features
+
+- versioning added ([a89f05a](https://github.com/rwasiak/gatsby-typescript-eslint-prettier-starter/commit/a89f05ae8dbc96c213743979cca64538d5ed577e))
+
 ## 0.1.0 (2020-05-01)
 
 ### ⚠ BREAKING CHANGES
