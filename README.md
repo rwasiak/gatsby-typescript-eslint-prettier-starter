@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
@@ -7,6 +6,14 @@
 <h1 align="center">
   Gatsby's typescript-eslint-prettier starter
 </h1>
+
+## 🛠 Features
+
+1. [TypeScript](https://www.typescriptlang.org/) support
+2. CSS in JS - [Styled components](https://www.styled-components.com/)
+3. ESlint [Airbnb React/JSX style guide](https://github.com/airbnb/javascript/tree/master/react) and [jsx-a11y rules](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
+4. [Stylelint](https://stylelint.io/) - styles linter compatible with styled-components
+5. Pre-Commit Hooks - [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
 ## 🚀 Quick start
 
@@ -71,29 +78,25 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 7.  **`.prettierignore`**: This file tells [Prettier](https://prettier.io/) to exclude specific files and directories from formatting.
 
-8.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+8.  **`.stylelintrc`**: This is a configuration file for [Stylelint](https://stylelint.io/). This linter helps you avoid errors and enforce conventions in your styles.
 
-9.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+9.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-10. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+10. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-11. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+11. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-12. **`LICENSE`**: Gatsby is licensed under the MIT license.
+12. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-13. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+13. **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-14. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+14. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-15. **`README.md`**: A text file containing useful reference information about your project.
+15. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-16. **`tsconfig.json`**: This is a configuration file for [TypeScript](https://www.typescriptlang.org/index.html). This file specifies the root files and the compiler options required to compile the project.
+16. **`README.md`**: A text file containing useful reference information about your project.
 
-## 🛠 Features
-
-1. CSS in JS - [Styled components](https://www.styled-components.com/)
-2. ESlint [Airbnb React/JSX style guide](https://github.com/airbnb/javascript/tree/master/react)
-3. Pre-Commit Hooks - [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
+17. **`tsconfig.json`**: This is a configuration file for [TypeScript](https://www.typescriptlang.org/index.html). This file specifies the root files and the compiler options required to compile the project.
 
 ## 🎓 Learning Gatsby
 
