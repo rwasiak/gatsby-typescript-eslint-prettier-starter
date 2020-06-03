@@ -8,6 +8,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
+import { Normalize } from 'styled-normalize';
 
 import Header from './header';
 import './layout.css';
@@ -15,7 +16,7 @@ import './layout.css';
 const FooterContainer = styled.div`
   margin: 0 auto;
   max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
+  padding: 0 1.0875rem 1.45rem;
   padding-top: 0;
 `;
 
@@ -32,6 +33,7 @@ const Layout: React.FC = ({ children }) => {
 
   return (
     <>
+      <Normalize />
       <Header siteTitle={data.site.siteMetadata.title} />
       <FooterContainer>
         <main>{children}</main>

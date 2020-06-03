@@ -18,7 +18,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.15",
@@ -37,6 +38,11 @@
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
     "standard-version": "^7.1.0",
+    "stylelint": "^13.5.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "^3.8.3"
   },
   "keywords": [
@@ -51,7 +57,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "lint": "tsc --noEmit && eslint '*/**/*.{ts,tsx}' --quiet --fix",
+    "lint": "tsc --noEmit && eslint '*/**/*.{ts,tsx}' --quiet --fix && stylelint './src/**/*.{tsx,ts}'",
     "bump": "standard-version"
   },
   "husky": {
@@ -63,6 +69,7 @@
     "*.{ts,tsx}": [
       "prettier --write",
       "eslint",
+      "stylelint",
       "git add"
     ],
     "*.{js,json,md}": [
